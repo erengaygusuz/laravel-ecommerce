@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
     <!-- endinject -->
     <link rel="shortcut icon" href="{{asset('admin/images/favicon.png')}}" />
-   
+
     @livewireStyles
 </head>
 <body>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
     <script src="{{asset('admin/vendors/base/vendor.bundle.base.js')}}"></script>
     <script src="{{asset('admin/vendors/datatables.net/jquery.dataTables.js')}}"></script>
@@ -48,5 +48,6 @@
     <script src="{{asset('admin/js/dataTables.bootstrap4.js')}}"></script>
 
     @livewireScripts
+    @stack('script')
 </body>
 </html>
