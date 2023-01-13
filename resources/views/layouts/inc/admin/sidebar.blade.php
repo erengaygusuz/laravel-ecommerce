@@ -39,11 +39,17 @@
             </div>
         </li>
       <li class="nav-item">
-        <a class="nav-link" href="pages/forms/basic_elements.html">
+        <a class="nav-link" href="{{url('admin/brands')}}">
           <i class="mdi mdi-view-headline menu-icon"></i>
-          <span class="menu-title">Brand</span>
+          <span class="menu-title">Brands</span>
         </a>
       </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{url('admin/colors')}}">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Colors</span>
+            </a>
+        </li>
       <li class="nav-item">
         <a class="nav-link" data-bs-toggle="collapse" href="#auth-users" aria-expanded="false" aria-controls="auth">
           <i class="mdi mdi-account menu-icon"></i>
