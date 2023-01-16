@@ -144,7 +144,7 @@
                                             </div>
                                         @empty
                                         <div class="col-md-12">
-                                            <h1>No colors found</h1>
+                                            <h5>No colors found</h5>
                                         </div>
                                         @endforelse
                                     </div>
