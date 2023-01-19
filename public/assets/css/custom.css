@@ -179,7 +179,7 @@
 }
 /* Product Card End */
 
-/* Product View */
+/* Product View Start */
 .product-view .product-name{
     font-size: 24px;
     color: #2874f0;
@@ -230,4 +230,22 @@
     outline: none;
     text-align: center;
 }
-/* Product View */
+/* Product View End */
+
+/* Color Selection Start */
+
+.colorSelectionLabel{
+    color: #000;
+    padding: 2px 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.colorSelectionLabel:active{
+    background-color: #fff !important;
+    border: 2px solid #000;
+}
+
+/* Color Selection End */
